@@ -68,4 +68,4 @@ def issaugoti_duomenis(pajamos, islaidos, filename="duomenys.pkl"):
             print('Duomenys issaugoti')
     except NameError:
         logging.error(f"Duomenu issaugojimo klaida")
-    print("Error: Nepavyko issaugoti duomenu.")
+    print("Error: Nepavyko issaugoti duomenuu.")
